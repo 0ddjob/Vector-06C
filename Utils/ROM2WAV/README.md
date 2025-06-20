@@ -1,6 +1,6 @@
 # BIN2WAV Conversion
 ## Note
-Remove "macos155" file extension when running on MacOS terminal
+Remove ".macos155" file extension when running on MacOS terminal.
 
 ## Example Output 1
 ```
