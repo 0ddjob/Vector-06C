@@ -8,6 +8,7 @@ The 02 model has a 7-pin socket for power input:
 - Pin 6: 0V (ground)
 - Pin 7: +5VDC
 
+## Mean Well GP25A13A-R1B
 It is possible to use a Mean Well GP25A13A-R1B power supply (5-pin DIN plug) with some modifications to the Vector's power input.<br>
 
 [1] De-solder/remove the 7-pin DIN connector from the motherboard.<br>
@@ -17,3 +18,6 @@ It is possible to use a Mean Well GP25A13A-R1B power supply (5-pin DIN plug) wit
 [5] Connect pin 4 on the underside of the motherboard to the -5V rail.<br>
 
 This now matches the Mean Well pinout - the Mean Well 5-pin DIN can be directly connected.
+
+## Other PSUs
+You can also create your own PSU by obtaining a tri-voltage AC/DC converter and making up some cabling and installing into a suitable box.
