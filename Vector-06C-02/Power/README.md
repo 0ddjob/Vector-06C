@@ -8,6 +8,8 @@ The 02 model has a 7-pin socket for power input:
 - Pin 6: 0V (ground)
 - Pin 7: +5VDC
 
+![Socket pinout](Vector-06C-02_Power_Input.png)
+
 ## Mean Well GP25A13A-R1B
 It is possible to use a Mean Well GP25A13A-R1B power supply (5-pin DIN plug) with some modifications to the Vector's power input.<br>
 
