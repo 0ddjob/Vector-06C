@@ -20,4 +20,4 @@ It is possible to use a Mean Well GP25A13A-R1B power supply (5-pin DIN plug) wit
 This now matches the Mean Well pinout - the Mean Well 5-pin DIN can be directly connected.
 
 ## Other PSUs
-You can also create your own PSU by obtaining a tri-voltage AC/DC converter and making up some cabling and installing into a suitable box.
+You can also create your own PSU by obtaining a tri-voltage AC/DC converter (i.e. Mean Well PT-65A or RPT-65E) and making up some cabling and installing into a suitable box.  You will need connectors as per the datasheet.
