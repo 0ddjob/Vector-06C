@@ -1,0 +1,30 @@
+Pinout: 
+Pin 1 = sound (звук) 
+Pin 2 = video (видео) 
+Pin 3 = blue 
+Pin 4 = green
+Pin 5 = red 
+Pin 6 = ground 
+Pin 7 = +12v (упров/control)
+
+Вектор-06ц-02: Кадровый и строчный с/импульсы. В этой модели разделение
+кадрового и строчного с/импульса задожено в схеме. На м/схеме D83 н.9 и 8
+кадровый прямой и инверсный соответс. D89 н.6 и 5 строчный инверсный и прямой
+соот. R, G, B следует посадить на "землю" через 75ом.
+
+Vector-06C-02: Vertical and horizontal sync pulses. In this model, the
+separation of vertical and horizontal sync pulses is implemented in the circuit.
+On the chip D83, pins 9 and 8 correspond to direct and inverse vertical sync
+«КСИ», respectively. 
+On the chip D89, pins 6 and 5 correspond to inverse and
+direct horizontal sync «ССИ», respectively. R, G, B should be connected to
+"ground" through 75-ohm resistors.
+
+https://zx-pk.ru/threads/32602-vektor-06ts-02-videovykhod-podklyuchenie-k-tv-vga-monitoru-scandoubler/page2.html 
+I found a piece of paper with a reminder that for 02, KSI should be taken from
+D83.5, and SSI from D89.6. These are positive polarity pulses.
+
+PS If you use inverted KSI (D83.6) - no changes. If you use inverted SSI (D89.5)
+- the picture is dark, the stripe is on the right. The picture is shifted to the
+left.
+
