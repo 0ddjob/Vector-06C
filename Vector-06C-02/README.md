@@ -1,31 +1,47 @@
 # Вектор 06Ц.02/Vector 06C.02
 ## Connector Pinouts
+### XS1 "ВУ" System Bus
+This is a 3x45 connector of type СНП34С-90/132х9,4Р-22 where the middle "B" row is not connected.
+
+### XS2 "ПУ" Printer Port
+This is a 3x10 connector of type СНП34С-30/27х9,4Р-22.  All three rows are connected.
 
 ### XS3 "J1" & XS4 "J2"
-Joystick 1 & 2 connections.<br>
-|Цель|-<|
-|---|---|
-|1|Верх/Up|
-|2|0V/Ground|
-|3|Право/Right|
-|4|Наз(?)/Down|
-|5|Кн.2/Button 2|
-|6|Лево/Left|
-|7|Кн.1/Button 1|
+Joystick 1 & 2 connections, 7-pin DIN sockets.<br>
+|Цель|-<|Eng|
+|---|---|---|
+|1|Верх|Up|
+|2|0V|Ground|
+|3|Право|Right|
+|4|Наз (?)|Down|
+|5|Кн. 2|Button 2|
+|6|Лево|Left|
+|7|Кн. 1|Button 1|
 
 ### XS5 "RGB"
-|Цель|-<|
-|---|---|
-|1|Збук/Sound|
-|2|Видео/Video|
-|3|Blue|
-|4|Green|
-|5|Red|
-|6|0V/Ground|
-|7|Упров/Control|
+7-pin DIN socket.
+|Цель|-<|Eng|
+|---|---|---|
+|1|Збук|Sound|
+|2|Видео|Video|
+|3|B|Blue|
+|4|G|Green|
+|5|R|Red|
+|6|0V|Ground|
+|7|Упров|Control|
 
 Pin 2 appears to be composite video and thus can be used for C.SYNC.<br>
 Pin 7 is connected to +12V so likely used for SCART control.<br>
+
+### XS6 "O__O" Cassette
+5-pin DIN socket, you can use a 3-pin or 5-pin DIN plug.
+|Цель|-<|Eng|
+|---|---|---|
+|1|Выход|Mic|
+|2|0V|Ground|
+|3|Вход|Ear|
+|4|x|x|
+|5|x|x|
 
 ### XS7 "CTV"
 This three pin connector appears to control whether the RGB signal is inverted or not.  The "target" (Цель) could be the type of RGB decoder (?): MC-3 or MC-31.<br>
@@ -47,6 +63,7 @@ The functionality is that when 1-2 are bridged then one input to the XOR gates i
 If 2-3 are bridged then one input is high which inverts the RGB signal: if RGB is low then it becomes high, and high becomes low.<br>
 
 ### XS8 "Power"
+7-pin DIN socket.
 |Цель|-<|
 |---|---|
 |1|0V/Ground|
