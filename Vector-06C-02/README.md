@@ -1,6 +1,9 @@
 # Вектор 06Ц.02/Vector 06C.02
 ## Connector Pinouts
 
+### XS3 "J1" & XS4 "J2"
+Joystick 1 & 2 connections.<br>
+
 ### XS5 "RGB"
 |Цель|-<|
 |---|---|
@@ -34,5 +37,15 @@ D61 & D67 are КР1533ЛП5 (74ALS86) which are quad two-input XOR gates.<br>
 The functionality is that when 1-2 are bridged then one input to the XOR gates is low, meaning the RGB signal is not affected: RGB low remains low, RGB high remains high.<br>
 If 2-3 are bridged then one input is high which inverts the RGB signal: if RGB is low then it becomes high, and high becomes low.<br>
 
+### XS8 "Power"
+|Цель|-<|
+|---|---|
+|1|0V/Ground|
+|2|-5V|
+|3|+5V|
+|4|-5V|
+|5|+12V|
+|6|0V/Ground|
+|7|+5V|
 
 
