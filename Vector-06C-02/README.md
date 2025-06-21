@@ -3,6 +3,15 @@
 
 ### XS3 "J1" & XS4 "J2"
 Joystick 1 & 2 connections.<br>
+|Цель|-<|
+|---|---|
+|1|Верх/Up|
+|2|0V/Ground|
+|3|Право/Right|
+|4|Наз(?)/Down|
+|5|Кн.2/Button 2|
+|6|Лево/Left|
+|7|Кн.1/Button 1|
 
 ### XS5 "RGB"
 |Цель|-<|
