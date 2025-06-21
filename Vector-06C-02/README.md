@@ -23,7 +23,7 @@ Joystick 1 & 2 connections, 7-pin DIN sockets.<br>
 |Цель|-<|Eng|
 |---|---|---|
 |1|Збук|Sound|
-|2|Видео|Video|
+|2|Видео|Composite Video|
 |3|B|Blue|
 |4|G|Green|
 |5|R|Red|
