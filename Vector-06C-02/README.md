@@ -35,7 +35,7 @@ Joystick 1 & 2 connections, 7-pin DIN sockets.<br>
 Pin 2 appears to be composite video and thus can be used for C.SYNC.<br>
 Pin 7 is connected to +12V so likely used for SCART control.<br>
 
-### XS6 "O__O" Cassette
+### XS6 "O__O" Магнетофон/Cassette
 5-pin DIN socket, you can use a 3-pin or 5-pin DIN plug.
 |Цель|-<|Eng|
 |---|---|---|
