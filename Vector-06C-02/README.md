@@ -1,5 +1,7 @@
 # Вектор 06Ц.02/Vector 06C.02
 ## Connector Pinouts
+![Connector locations](/Vector-06C-02/Pictures/Vector-06C-02_Ports.jpg)
+
 ### XS1 "ВУ" System Bus
 This is a 3x45 connector of type СНП34С-90/132х9,4Р-22 where the middle "B" row is not connected.
 
