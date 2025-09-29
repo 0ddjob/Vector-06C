@@ -1,0 +1,12 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+123.19,-91.44,0.0,top,J1,,,PinHeader_2x03_P2.54mm_Vertical,Conn_02x03_Odd_Even,tht
+123.19,-76.2,0.0,top,J2,,,PinHeader_2x02_P2.54mm_Vertical,Conn_02x02_Odd_Even,tht
+123.19,-82.55,90.0,top,R86,,,Potentiometer_Bourns_3266W_Vertical,10KΩ,tht
+110.49,-76.2,0.0,top,R95,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1KΩ,tht
+110.49,-82.55,0.0,top,R96,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,220Ω,tht
+110.49,-88.9,0.0,top,R97,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,220Ω,tht
+110.49,-95.25,0.0,top,R98,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,220Ω,tht
+104.73,-77.47,90.0,top,VT3,,,TO-92_Inline,2N3904,tht
+104.73,-83.82,90.0,top,VT4,,,TO-92_Inline,2N3904,tht
+104.73,-90.17,90.0,top,VT5,,,TO-92_Inline,2N3904,tht
+104.73,-96.52,90.0,top,VT6,,,TO-92_Inline,2N3904,tht

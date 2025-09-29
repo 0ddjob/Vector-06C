@@ -1,0 +1,7 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+J1,1,Conn_02x03_Odd_Even,PinHeader_2x03_P2.54mm_Vertical,,,,tht,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+J2,1,Conn_02x02_Odd_Even,PinHeader_2x02_P2.54mm_Vertical,,,,tht,"Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+R86,1,10KΩ,Potentiometer_Bourns_3266W_Vertical,,,,tht,Trim-potentiometer
+R95,1,1KΩ,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,,,tht,Resistor
+"R96, R97, R98",3,220Ω,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,,,tht,Resistor
+"VT3, VT4, VT5, VT6",4,2N3904,TO-92_Inline,,,,tht,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
