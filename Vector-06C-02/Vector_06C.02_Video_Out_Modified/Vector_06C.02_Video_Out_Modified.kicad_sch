@@ -4921,7 +4921,7 @@
 	)
 	(text_box "NEW"
 		(exclude_from_sim no)
-		(at 170.18 186.69 0)
+		(at 156.21 167.64 0)
 		(size 21.59 16.51)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5074,12 +5074,6 @@
 		(uuid "9beb08d2-b2a3-418f-bbd6-fae82812418c")
 	)
 	(junction
-		(at 187.96 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a266e88d-57a7-4b79-87ca-d12a1c5139e1")
-	)
-	(junction
 		(at 74.93 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5090,6 +5084,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abd0c08f-7bc5-4fa3-814a-ce92d960bec8")
+	)
+	(junction
+		(at 187.96 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae91c8e7-3ea3-4d8d-a5f0-607302acad54")
 	)
 	(junction
 		(at 351.79 27.94)
@@ -5845,16 +5845,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 198.12) (xy 247.65 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43c5a15a-4b46-4bc3-b30b-78233e31213c")
-	)
-	(wire
-		(pts
 			(xy 364.49 27.94) (xy 378.46 27.94)
 		)
 		(stroke
@@ -5942,16 +5932,6 @@
 			(type default)
 		)
 		(uuid "53103734-ac67-462d-af32-d2a3a0a89f27")
-	)
-	(wire
-		(pts
-			(xy 107.95 179.07) (xy 187.96 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "533f533f-0828-4022-a239-847e71981e02")
 	)
 	(wire
 		(pts
@@ -6465,6 +6445,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 198.12) (xy 247.65 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ca510f-1f83-431f-aedc-5c611ef5ed99")
+	)
+	(wire
+		(pts
 			(xy 391.16 27.94) (xy 391.16 29.21)
 		)
 		(stroke
@@ -6655,6 +6645,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 179.07) (xy 187.96 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46a4d38-6f9b-49c0-8cf5-7b37f913f661")
+	)
+	(wire
+		(pts
 			(xy 308.61 58.42) (xy 294.64 58.42)
 		)
 		(stroke
@@ -6702,6 +6702,16 @@
 			(type default)
 		)
 		(uuid "bac3b7a6-4948-4aa4-bfef-87a8712ff028")
+	)
+	(wire
+		(pts
+			(xy 107.95 179.07) (xy 163.83 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb088c27-2acb-4e90-9904-99b97cabd279")
 	)
 	(wire
 		(pts
@@ -7162,16 +7172,6 @@
 			(type default)
 		)
 		(uuid "fbfd9a7e-f3fb-4259-829c-289b071e58c2")
-	)
-	(wire
-		(pts
-			(xy 153.67 198.12) (xy 177.8 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdff6e5d-6cfe-42df-97f9-3f669073f6ea")
 	)
 	(wire
 		(pts
@@ -11082,7 +11082,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Variable")
-		(at 181.61 198.12 270)
+		(at 167.64 179.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11091,7 +11091,7 @@
 		(fields_autoplaced yes)
 		(uuid "76429ab7-31b5-404d-a037-a59e526536e0")
 		(property "Reference" "R86"
-			(at 181.61 191.77 90)
+			(at 167.64 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11099,7 +11099,7 @@
 			)
 		)
 		(property "Value" "R_Variable"
-			(at 181.61 194.31 90)
+			(at 167.64 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11107,7 +11107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 196.342 90)
+			(at 167.64 177.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11116,7 +11116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 198.12 0)
+			(at 167.64 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11125,7 @@
 			)
 		)
 		(property "Description" "Variable resistor"
-			(at 181.61 198.12 0)
+			(at 167.64 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
