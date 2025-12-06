@@ -10,6 +10,10 @@ The 02 model has a 7-pin socket for power input:
 
 ![Socket pinout](Vector-06C-02_Power_Input.png)
 
+## [My Very Simple Vintage Computer PSU](https://github.com/BrettHallen/Universal_Vintage_Computer_Power_Supply)
+My attempt at creating a simple/compact multi-voltage PSU that can be used for different vintage computers requiring more than just +5VDC.<br>
+Powered with a regulated +12VDC supply of suitable power (i.e. 4-5A).  Will pass through the +12V and output regulated +5V, -5V and -12V.<br>
+
 ## Mean Well GP25A13A-R1B
 It is possible to use a Mean Well GP25A13A-R1B power supply (5-pin DIN plug) with some modifications to the Vector's power input.<br>
 
